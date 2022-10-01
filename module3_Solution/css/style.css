@@ -1,0 +1,81 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Balsamiq Sans', cursive;
+}
+nav{
+    background-color: #645CAA;
+}
+.navbar-brand{
+    font-weight: 600;
+    --bs-navbar-brand-font-size: 1.80rem;
+    color: aliceblue !important;
+}
+.nav-item{
+    font-weight: 700;
+}
+.nav-item:hover{
+    background-color: aliceblue;
+}
+#navbarSupportedContent{
+    transition: .5s;
+}
+#main-content{
+    background-color: #A084CA;
+}
+body{
+    --bs-body-bg: #EBC7E8;
+}
+
+/* mobile devices */
+@media (max-width: 575.99px) { 
+    button{
+        display: block; 
+    }
+}
+
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+    button{
+        display: block; 
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    button{
+        display: none; 
+    }
+ }
+
+ /* Large devices (desktops, 992px and up) */
+ @media (min-width: 992px) {
+    .nav-item{
+        display: none;
+    }
+    button{
+        display: none; 
+    }
+ }
+
+ /* X-Large devices (large desktops, 1200px and up) */
+ @media (min-width: 1200px) {  
+    .nav-item{
+        display: none;
+    }
+    button{
+        display: none; 
+    }
+}
+
+ /* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+    .nav-item{
+        display: none;
+    }
+    button{
+        display: none; 
+    }
+} 
+
